@@ -31,7 +31,7 @@ accuracy = clf.score(X_test, y_test)
 print(f"Précision du modèle sur les données de test : {accuracy:.2f}")
 
 # Visualiser l'arbre de décision
-plt.figure(figsize=(12, 8))  # Réduire la taille de la figure
+plt.figure(figsize=(12, 8))
 plot_tree(
     clf,
     feature_names=X.columns,
